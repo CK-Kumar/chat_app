@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900908000813",
+    "project_id": "chat-app-28199",
+    "storage_bucket": "chat-app-28199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900908000813:android:ab91919d755407abd9baa4",
+        "android_client_info": {
+          "package_name": "com.chandra.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900908000813-7iqj3mmke8je9e9ataltiihdqdol9p6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuwfA6S8_rTawNVwF6lRnrHmmIFJi6mIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900908000813-7iqj3mmke8je9e9ataltiihdqdol9p6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
