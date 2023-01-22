@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         rvUser = findViewById(R.id.rvUser)
         rvUser.layoutManager = LinearLayoutManager(this)
         rvUser.adapter = userAdapter
+
         dbRef.child("user").addValueEventListener(object: ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 userList.clear()

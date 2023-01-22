@@ -1,6 +1,7 @@
 package com.chandra.chatapp
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,7 +17,12 @@ class UserAdapter(private val context: Context, private val userList: ArrayList<
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         val current = userList[position]
         holder.textName.text = current.name
-
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context,ChatActivity::class.java)
+            intent.putExtra("name",current.name)
+            intent.putExtra("uid",current.uid)
+            context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {
